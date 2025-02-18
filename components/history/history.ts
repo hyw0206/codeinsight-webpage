@@ -86,3 +86,27 @@ export const Article = styled.div<ArticleProps>`
     line-height: 23px;
   }
   `
+
+  export const MainAlign = styled.div`
+  margin-top: 240px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  `
+
+  export const TitleText = styled.p`
+  margin-bottom: 53px;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Jersey 25';
+  `
+
+  export const MapImage = styled.img`
+  margin-bottom: 28px;
+  `
+
+  export const LocInfo = styled.p`
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 600;
+  `
