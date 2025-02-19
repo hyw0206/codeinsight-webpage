@@ -6,6 +6,7 @@ export const AboutUsWrapper = styled.div`
     align-items: center;
     font-family: 'Arial Black';
     font-weight: 600;
+    width: 100%;
 `
 
 export const AboutUsTitle = styled.span`
@@ -50,6 +51,9 @@ export const AboutUsTextWrapper = styled.div`
     font-family: 'Bai Jamjuree';
     font-weight: 800;
     text-align: center;
+    max-width: 1200px; /* 너비 제한 */
+    margin: 0 auto;
+    text-align: center;
 `
 
 export const RecruitingWrapper = styled.div`
@@ -86,6 +90,7 @@ export const RecruitingContent = styled.div`
   font-size: 24px;
   text-align: left;
   line-height: 47px;
+  font-weight: 700;
 `;
 
 export const RecruitingLine = styled.hr`
@@ -103,7 +108,6 @@ export const noLineHeight = styled.div`
 
 export const BackgroundWrapper = styled.div`
   width: 100%;
-  height: 100vh;
   position: relative;
   
   :before {
@@ -118,7 +122,7 @@ export const BackgroundWrapper = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 1008px;
-    opacity: .4;
+    background-size: 100% 100%;
+    opacity: .2;
   }
 `;

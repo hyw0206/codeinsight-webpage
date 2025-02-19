@@ -31,7 +31,18 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin: 0;
+  max-width: 100%;
 }
+html, body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+ 
+}
+
 /* reset button */
 button {
   border: 0;

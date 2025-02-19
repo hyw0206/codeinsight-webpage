@@ -103,6 +103,7 @@ export const Article = styled.div<ArticleProps>`
 
   export const MapImage = styled.img`
   margin-bottom: 28px;
+  width: 600px;
   `
 
   export const LocInfo = styled.p`
