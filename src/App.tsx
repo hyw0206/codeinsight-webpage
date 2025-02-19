@@ -1,4 +1,4 @@
-import { TestWrapper, Test1, Test2, Test3, Image } from "../components/title/title";
+import { Test1, Test2, Test3, Image } from "../components/title/title";
 
 
 import * as styled from "../components/history/history";
