@@ -1,4 +1,5 @@
-import {Test3} from "../components/title/title";
+import { TestWrapper, Test1, Test2, Test3, Image } from "../components/title/title";
+
 
 import * as styled from "../components/history/history";
 import * as Styled from "../components/about/about";
@@ -25,7 +26,21 @@ function App() {
           </g>
         </g>
       </svg>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-start", width: "100%", maxWidth: "900px",position: "relative" }}>
+          <div style={{ textAlign: "left",zIndex: 3, marginRight: "266px"}}>
+          <Test1>2025</Test1>
+          <Test1>COIN</Test1>
+          <Test1>RECRUITING</Test1>
+          <Test2>경기과학기술대학교 프로그래밍 동아리</Test2>
+          </div>
 
+          <div style={{
+            
+            zIndex: 2
+          }}>
+            <Image src='/title/image_4.png' alt="image_4" />
+          </div>
+      </div>
       <Styled.AboutUsWrapper>
         <Styled.AboutUsTitle>About us.</Styled.AboutUsTitle>
         <Styled.AboutUsAllBoxWrapper>
