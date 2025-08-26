@@ -174,7 +174,7 @@ function App() {
                                   </Styled.RecruitingContentTitle>
                                   <Styled.RecruitingLine />
                                   <Styled.RecruitingContent>
-                                      신청기한: 8월 27일 ~ 9월 3일<br />
+                                      신청기한: 9월 1일 ~ 9월 3일<br />
                                       면접일자: 9월 4일 ~ 9월 5일
                                   </Styled.RecruitingContent>
                               </div>
