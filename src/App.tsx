@@ -64,8 +64,7 @@ function App() {
           COIN은 다양한 프로그래밍 언어를 연구하고 실전 경험을 쌓는<br/>
           프로그래밍 동아리입니다.<br/>
           웹, 앱, 알고리즘 등 다양한 분야의 개발을 탐구하며,<br/>
-          팀 프로젝트와 해커톤과 같은 대외활동을 통해 실력을 키울 수 있습니다.<br/>
-          경험이 부족해도 괜찮습니다!<br/>   
+          팀 프로젝트와 해커톤과 같은 대외활동을 통해 실력을 키울 수 있습니다.<br/>   
           함께 공부하며 성장할 수 있도록 스터디와 멘토링을 제공합니다.<br/>
           프로그래밍을 즐기고, 열정적인 팀원들과 협업하며<br/> 
           더 나은 개발자로 성장하고 싶다면?<br/> 
@@ -129,7 +128,8 @@ function App() {
                                   <Styled.RecruitingLine />
                                   <Styled.RecruitingContent>
                                       ✓ 개발자<br />
-                                      ✓ 웹 디자이너(웹 퍼블리싱)
+                                      ✓ 웹 디자이너(웹 퍼블리싱)<br />
+                                      ✓ AI 엔지니어
                                   </Styled.RecruitingContent>
                               </div>
 
@@ -174,8 +174,8 @@ function App() {
                                   </Styled.RecruitingContentTitle>
                                   <Styled.RecruitingLine />
                                   <Styled.RecruitingContent>
-                                      신청기한: 2월 28일 ~ 3월 7일<br />
-                                      면접일자: 3월 10일 ~ 3월 11일
+                                      신청기한: 8월 27일 ~ 9월 3일<br />
+                                      면접일자: 9월 4일 ~ 9월 5일
                                   </Styled.RecruitingContent>
                               </div>
                           </div>
@@ -185,7 +185,7 @@ function App() {
           </Styled.RecruitingWrapper>
 
         <styled.HistoryWrapper>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSejLO8YisYWE2VvaazymfAXUxcPrItGNxpl4Kfvmz0fgPkyCw/viewform?usp=dialog" target="_blank" rel="noopener norefferer">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrYhKlTMxE3C2OI90cGQ9xzLwFHVGX85p_ISOs4npCbfKeWg/viewform?usp=header" target="_blank" rel="noopener norefferer">
             <styled.ApplyButton>2025 COIN 지원하기</styled.ApplyButton>
           </a>
           <styled.HistoryArticleWrapper>
